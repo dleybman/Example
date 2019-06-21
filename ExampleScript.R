@@ -32,3 +32,6 @@ flights[origin == "AAA"]
 flights14 <- as.data.table(flights14)
 
 flights14[origin =="AAA"]
+
+eigthcolumn < aids$term
+
