@@ -59,6 +59,13 @@ Added another function(x,y,z)
 
 Function, ZZZ
 
+<<<<<<< HEAD
 
 flights14[origin == "JFK"]
  
+=======
+flights14[origin == "JFK"]
+
+flights14[hour == 1]
+
+>>>>>>> 07479c7f10d066f0240d70c0e8615a4db74c75e2
