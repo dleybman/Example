@@ -27,4 +27,13 @@ thirdColumn <- aids$term
 
 fourthColumn <- aids$dud
 
+flights[origin == "AAA"]
+
+flights14 <- as.data.table(flights14)
+
+flights14[,origin =="AAA"]
+
 eigthcolumn < aids$term
+
+anotherProblem <- aids$delay
+
