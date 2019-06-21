@@ -17,6 +17,18 @@ fread("aids")
 
 firstColumn <- aids$year
 
+
+secondColumn <-aids$quarter
+
 secondColumn <- aids$delay
 
 
+thirdColumn <- aids$term
+
+fourthColumn <- aids$dud
+
+flights[origin == "AAA"]
+
+flights14 <- as.data.table(flights14)
+
+flights14[origin =="AAA"]
