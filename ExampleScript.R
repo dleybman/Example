@@ -20,3 +20,4 @@ firstColumn <- aids$year
 secondColumn <- aids$delay
 
 
+thirdColumn <- aids$term
