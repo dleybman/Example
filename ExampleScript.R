@@ -17,5 +17,10 @@ fread("aids")
 
 firstColumn <- aids$year
 
+
 secondColumn <-aids$quarter
 
+secondColumn <- aids$delay
+
+
+thirdColumn <- aids$term
