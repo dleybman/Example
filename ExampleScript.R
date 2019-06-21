@@ -42,11 +42,19 @@ anotherProblem <- aids$delay
 
 Function(X,Y,Z)
 
+
+Another file
+
+
 Add a new file Function "3,4,5"
+ss
 
 Added a new file as well with function(Z,F,Q)
 
 
 Function(X,Z,N)
+
+
+Added another function(x,y,z)
 
 Function, ZZZ
