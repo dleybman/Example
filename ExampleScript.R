@@ -58,3 +58,8 @@ Function(X,Z,N)
 Added another function(x,y,z)
 
 Function, ZZZ
+
+flights14[origin == "JFK"]
+
+flights14[hour == 1]
+
