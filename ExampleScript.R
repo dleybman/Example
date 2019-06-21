@@ -10,3 +10,10 @@ write.csv(mtcars, file = "mtcars.csv")
 # Write data to csv files: 
 # decimal point = comma (",") and value separators = semicolon (";")
 write.csv2(mtcars, file = "mtcars.csv")
+
+
+library(data.table)
+fread("aids")
+
+firstColumn <- aids$year
+
