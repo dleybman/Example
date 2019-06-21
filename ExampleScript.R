@@ -26,3 +26,5 @@ secondColumn <- aids$delay
 thirdColumn <- aids$term
 
 fourthColumn <- aids$dud
+
+eigthcolumn < aids$term
