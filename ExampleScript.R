@@ -37,3 +37,10 @@ eigthcolumn < aids$term
 
 anotherProblem <- aids$delay
 
+
+anotherProblem <- aids$delay
+
+Function(X,Y,Z)
+
+
+
