@@ -52,9 +52,9 @@ ss
 Added a new file as well with function(Z,F,Q)
 
 
-Function(X,Z,N)
 
 
+<<<<<<< HEAD
 Added another function(x,y,z)
 
 Function, ZZZ
@@ -67,3 +67,5 @@ flights14[origin == "JFK"]
 flights14[origin == "JFK"]
 
 flights14[hour == 1]
+=======
+>>>>>>> c3c9e8c27c87a36fada34c431ee285808ef69105
