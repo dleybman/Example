@@ -91,3 +91,23 @@ flights16[day== Saturday]
 
 
 Another file
+
+Add a new file Function "3,4,5"
+
+
+flights14[,origin =="TWA"]
+
+
+Added another function(x,y,z)
+
+Function, ZZZ
+
+
+
+flights17[origin == "JFK"]
+ 
+
+flights18[day== Saturday]
+
+
+Another file
