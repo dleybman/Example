@@ -91,3 +91,4 @@ flights14[origin == "JFK"]
 
 flights14[hour == 1]
   
+flights14[day = Monday]
