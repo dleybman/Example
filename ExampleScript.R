@@ -116,3 +116,10 @@ flights15[day = Monday]
 flights15[day === Friday]
 
 flights15[day== Saturday]
+
+
+flights16[day = Monday]
+
+flights16[day === Friday]
+
+flights16[day== Saturday]
