@@ -51,6 +51,10 @@ ss
 
 Added a new file as well with function(Z,F,Q)
 
+Add a new file Function "3,4,5"
+
+
+flights14[,origin =="TWA"]
 
 
 
