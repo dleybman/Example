@@ -84,8 +84,8 @@ Function, ZZZ
 
 
 
-flights14[origin == "JFK"]
+flights20[origin == "JFK"]
  
 
-flights16[day== Saturday]
+flights20[day== Saturday]
 
