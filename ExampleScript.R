@@ -54,3 +54,16 @@ Added a new file as well with function(Z,F,Q)
 
 
 
+Added another function(x,y,z)
+
+Function, ZZZ
+
+
+
+flights14[origin == "JFK"]
+ 
+
+flights14[origin == "JFK"]
+
+flights14[hour == 1]
+  
