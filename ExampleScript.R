@@ -51,10 +51,45 @@ ss
 
 Added a new file as well with function(Z,F,Q)
 
+Add a new file Function "3,4,5"
+
+
+flights14[,origin =="TWA"]
+
+
+Add a new file Function "3,4,5"
+ss
+
+Added a new file as well with function(Z,F,Q)
+
+Add a new file Function "3,4,5"
+
+
+flights14[,origin =="TWA"]
+
+Add a new file Function "3,4,5"
+ss
+
+Added a new file as well with function(Z,F,Q)
+
+Add a new file Function "3,4,5"
+
+
+flights14[,origin =="TWA"]
+
+
+Added another function(x,y,z)
+
+Function, ZZZ
 
 
 
-<<<<<<< HEAD
+flights14[origin == "JFK"]
+ 
+
+flights14[origin == "JFK"]
+
+
 Added another function(x,y,z)
 
 Function, ZZZ
@@ -67,5 +102,7 @@ flights14[origin == "JFK"]
 flights14[origin == "JFK"]
 
 flights14[hour == 1]
-=======
->>>>>>> c3c9e8c27c87a36fada34c431ee285808ef69105
+
+flights14[hour == 1]
+  
+flights14[day = Monday]
