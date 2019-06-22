@@ -106,3 +106,7 @@ flights14[hour == 1]
 flights14[hour == 1]
   
 flights14[day = Monday]
+
+flights14[day === Friday]
+
+flights14[day== Saturday]
