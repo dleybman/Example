@@ -1,8 +1,54 @@
+log_calculator <- function(x){
+  tryCatch(
+    expr = {
+      message(log(x))
+      message("Successfully executed the log(x) call.")
+    },
+    error = function(e){
+      message('Caught an error!')
+      print(e)
+    },
+    warning = function(w){
+      message('Caught an warning!')
+      print(w)
+    },
+    finally = {
+      message('All done, quitting.')
+    }
+  )    
+}
+
+log_calculator((12))
+
+log_calculator((a))
+
+
+
+
+
+
+
+
+
+
+
 
 
 function1 <- function (df, df2) {
   df <- as.data.table(df)
   df2 <- as.data.table(df2)
+    return(df, d2)
+    
+} 
+
+
+
+
+function1(aids, aids2)
+aids <- as.data.table(aids)  
+aids2 <- aids[, "delay":= NULL]
+
+  
   if (length(names(df2)) > length(names(df))) {
     return("Great Job")
   } else 
@@ -52,9 +98,3 @@ select2<-function(data, formula1, formula2){
   tryCatch(lm(formula1, data), error = function(e) lm(formula2, data))
   
 }
-
-
-create a new pull request
-
-Make an even new pull request
-
