@@ -52,3 +52,9 @@ select2<-function(data, formula1, formula2){
   tryCatch(lm(formula1, data), error = function(e) lm(formula2, data))
   
 }
+
+
+create a new pull request
+
+Make an even new pull request
+
