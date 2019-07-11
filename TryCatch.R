@@ -18,17 +18,57 @@ log_calculator <- function(x){
   )    
 }
 
+
+
+centuries <- data.table(c(1:101,101:201,301:401, 401:501, 501:601, 601:701))
+                        
+experimet <- data.table(c("a", "b"),
+                        c(1, 2))
+  
+century <-(1:2200)
+
+
+dim(century) <- c(100, 22)
+
+columnNames = 1:22
+
+century <- as.data.table(century)
+
+setnames(century, paste0(columnNames, "_century"))
+
+names(century)
+
+colnames()
+
+
 log_calculator((12))
 
 log_calculator((a))
 
 
+data(iris)
 
 
+iris <- data.table(iris)
+
+iris <- data.table(iris)
+
+is.data.table(iris)
+
+iris[, c("new_var", "old_var") := c("1")]
+
+lapply(iris, class)
 
 
+convertToNumeric <- c("new_var", "old_var")
 
+iris[, c(convertToNumeric) := lapply(.SD, as.numeric), .SDcols=convertToNumeric]
 
+iris[, multplication := new_var*old_var]
+
+lapply(iris, class)
+
+dt[, new := paste(A, B, sep = ".")]
 
 
 
