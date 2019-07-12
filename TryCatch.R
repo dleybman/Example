@@ -73,13 +73,16 @@ dt[, new := paste(A, B, sep = ".")]
 
 
 
+str(iris)
+
+
 
 function1 <- function (df, df2) {
   df <- as.data.table(df)
   df2 <- as.data.table(df2)
     return(df, d2)
     
-} 
+}
 
 
 
@@ -138,3 +141,46 @@ select2<-function(data, formula1, formula2){
   tryCatch(lm(formula1, data), error = function(e) lm(formula2, data))
   
 }
+data(iris)
+iris2 <- data(iris)
+View(irisCorrectClass)
+
+as.data.table(iris)
+
+data(iris)
+
+iris <-as.data.table(iris)
+
+class(iris)
+
+irisCorrectClass <- as.data.table(irisCorrectClass)
+
+cols <- names(iris)
+
+iris[, (cols) := lapply(.SD, factor), .SDcols = cols]
+
+irisincorrect <- iris
+
+names(iris)
+
+str(iris)
+
+str(iris)
+
+str(iris)
+
+irisincorrect
+
+iris[, cols := lapply(.SD, as.factor), .SDcols = cols]
+
+data(iris)
+class1 <- sapply(iris, class)
+
+irisincorrect[, (cols) := lapply(.SD, class1), .SDcols = cols]
+
+str(irisincorrect)
+
+
+dfWrong[] <- mapply(FUN = as,dfWrong,sapply(dfCorrect,class),SIMPLIFY = FALSE)
+
+
