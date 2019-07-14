@@ -89,3 +89,11 @@ flights20[origin == "JFK"]
 
 flights20[day== Saturday]
 
+
+
+r <- c(1,2,3,5)
+s <- c(1,2,899,9)
+q <- c( c=r, d=s)
+
+z <- rnorm(10, mean=0)
+mean(z)
