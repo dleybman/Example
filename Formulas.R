@@ -1,30 +1,37 @@
 dtonecolumn <- data.table(a=c(1,2,3,4))
 
 dtTwoColumn <-data.table(a= c("1","2","3","4"),
-                         b= c("1", "2", "3", "4"), 
+                         b= c(1, 2, 3, 4), 
                          c= c("cat", "stars", "songs", "movies"),
                          d = c(TRUE, FALSE, TRUE, TRUE))
 
 
-dtThreeColumn <-data.table(a= c("1","2","3","4"),
+dtThreeColumn <-data.table(a= c(1,2,3,4),
                          b= c("1", "2", "3", "4"), 
                          c= c("cat", "stars", "songs", "movies"))
 
 
 
-identicalColumns <- Reduce(intersect, list(names(dtonecolumn),names(dtTwoColumn)))
 
 identicalColumnsBetweenTwoDT <- Reduce(intersect, list(names(dtTwoColumn),names(dtThreeColumn)))
 
+classofColumnsInOriginalTableThatOverlap <- sapply(dtTwoColumn,class)[identicalColumnsBetweenTwoDT]
 
+classOfOverlappingColumnsinFirstTableWithAs <- paste0( "as.", classofColumnsInOriginalTableThatOverlap, sep="")
+
+
+#####classOfOverlappingColumnsinFirstTableWithAs <- paste0( "as.", classof, sep="")
+
+
+###identicalColumns <- Reduce(intersect, list(names(dtonecolumn),names(dtTwoColumn)))
 
 #####columnsOfInterest <- c("a", "b", "c")
 
-dtTwoColumn[, identicalColumnsInMoreComplexExample, with=FALSE]
+####dtTwoColumn[, identicalColumnsBetweenTwoDT, with=FALSE]
 
-identicalColumnsInMoreComplexExample <- as.vector(Reduce(intersect, list(names(dtTwoColumn),names(dtThreeColumn))))
+####identicalColumnsInMoreComplexExample <- as.vector(Reduce(intersect, list(names(dtTwoColumn),names(dtThreeColumn))))
 
-classOfColumnsInMoreComplex <- sapply(dtTwoColumn,class)[identicalColumns]
+classofColumnsInOriginalTableThatOverlap <- sapply(dtTwoColumn,class)[identicalColumnsBetweenTwoDT]
 
 
 classOfColumnsInMoreComplex <- sapply(dtTwoColumn,class)[columnsOfInterest]
@@ -36,10 +43,10 @@ classOfColumnsInMoreComplex <- sapply(dtTwoColumn,class)[columnsOfInterest]
   dtTwoColumn[, (columnsOfInterest) := 1]
 
 classOfColumnsinFirstTable <- class(dtThreeColumn[[identicalColumns]])
-week <- paste0( "as.", classof, sep="")
+classOfOverlappingColumnsinFirstTable <- paste0( "as.", classof, sep="")
 
 
-week <- paste0( "as.", classOfColumnsInMoreComplex, sep="")
+week <- paste0( "as.", classOfColumnsinFirstTable, sep="")
 
 
 dtTwoColumn[, (identicalColumnsInMoreComplexExample) := lapply(.SD, classesOfColumns), .SDcols = identicalColumnsInMoreComplexExample]
